@@ -1,0 +1,2005 @@
+---
+title: "Go Found  Me"
+author: "Kanlun Wang"
+date: "December 20, 2018"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r}
+my_example_text <- "Help Christian Fight Leukemia.
+Together We Can Fight Non-Hodgkin's Lymphoma! Benefit for Christopher Ocasio.
+Cierra's Lymphoma Fund.
+HOPE FOR MMS (Hodgkins Lymphoma & Transverse Myelitis Fighter).
+The Roberto Lisitano Lymphoma Fund.
+Brittany's Small Cell Cervical Cancer Fund.
+Stage 4 Breast Cancer Mom!.
+Help the Lomeli's fight leukemia.
+My mom and breast cancer.
+Kate's ASS Cancer Kicking Fund.
+Team Aarin Fight Against Leukemia.
+Help Nikki Fight Breast Cancer.
+Nancy's (Mama Mac's) Cancer Fund.
+Trinity's Angel Leukemia Fund.
+David Bellini Fight Against Lymphoma.
+Living with Leukaemia.
+Help me fight Cancer and Win!.
+Jan Bertolet - Cancer Support Fund.
+Caleb Stone's Beating Leukemia Fund.
+Claire's Leukemia Journey.
+Amie's Pancreatic Cancer Fight Fund.
+Fletcher's transplant.
+#FightForSavvie- Leukemia Battle.
+BTHO Breast Cancer.
+Future Baby Gillian.
+Mary's Breast Cancer Fund.
+Lauren's Breast Cancer Support.
+Donna's Breast Cancer Journey.
+Helping the Cramer Family!.
+Help Ryan Dodd Fight Leukemia.
+Help Brandi-Medical for leukemia.
+Help Sara beat Leukemia.
+Destry Abbott Leukemia Fund.
+Help Nainoa beat Cancer.
+Alaska Girl Fights Rare Cancer.
+Shannon's Rally Against Cancer.
+Baby Bowen Leukemia Fund.
+Help JuanDi fight Leukemia.
+Liliana's Fight Against Leukemia.
+Raise money for our dads cancer.
+Debbie's fight to defeat cancer.
+Tonya's Beating Breast Cancer.
+ALEX - A family for my future.
+Mel's Terminal Cancer Family Fund.
+HELP Sarah Beat Cancer.
+Katie's Cancer Fund.
+Montel's Hodgkins Lymphoma Battle.
+Lisa's Cancer Medical Fund.
+No Time For Breast Cancer.
+Andrew Engle's Leukemia Fund.
+Karen's Battle with Breast Cancer.
+Help Jani Beat Breast Cancer!.
+Help baby Raylan beat Cancer.
+Kris Isbell Leukemia Fund.
+Help Bev Get Well.
+Kirsten Kicks Cancer.
+Help Ana Beat Breast Cancer.
+Our Brother's fight with Cancer.
+Mama Hwang / Stomach Cancer.
+Karolina's Cancer Treatment Fund.
+Fund for Mom of 12 Fighting Cancer.
+Young Emmy Pontz has breast cancer.
+Help Lane Box Out Cancer.
+Christina Bedard Breast Cancer Fund.
+Coach Cunningham's Cancer Fund.
+Help Lisa Kick Cancer's Butt!.
+Savannah's bone marrow transplant.
+Scott/Holly Schwebke Cancer Fund.
+Help Danny against the liver cancer.
+Ms. Myrna's Battle w/ Breast Cancer.
+#teampaige.
+Luke's Fight Against Leukemia.
+Tim & Michelle Cascio Family Fund.
+Help Tim Hardwick Beat Lymphoma.
+Breast Cancer Crusin' For A Bruisin.
+Joe Bland Cancer Treatment.
+Bev Jorgensen's journey to health.
+Tammie's Last Medical Bill.
+Slaying leukemia.
+Jeannie's Cancer Fund.
+Leslie DuPre-Grimaud Breast Cancer.
+Melissa Guy: Help Her Battle Cancer.
+Petra's breast cancer medical fund.
+Jackson's Journey to Beat Lymphoma!.
+Sandra's Breast Cancer Fund.
+Fighting Cancer with Terrence.
+Debbie Breast Cancer Support.
+Gianna DeVeitro's Leukemia Fight.
+Patrick's Lymphoma Recovery Fund.
+Nala's Fight Against Leukemia.
+Teig's Cancer Fund.
+Roger Shew's Fight Against Cancer.
+Hoping for a Miracle Baby Sullivan.
+Max's Fight with Cancer.
+Jocelyn Upshaw Leukemia Fund.
+Help Elisha defeat breast cancer.
+it's time to Execute Breast Cancer.
+Help David beat Leukemia.
+Sylvia's Bone Cancer Treatment Fund.
+Fred's non-hodgkin lymphoma fund.
+Bridget's Cancer Fight.
+Fundraiser for Bill Price.
+Help Pat Beat Cancer.
+Andreas Fight Against Breast Cancer.
+Ashley's Breast Cancer Med. Costs.
+Francisco Rosas VS Myeloid Leukemia.
+someone I love has leukemia....
+Jeff Dixon's Fight Against Lymphoma.
+Help a Soldier Fight Lymphoma.
+Brooklyn's Leukemia Fund.
+Torey's Fight Against Breast Cancer.
+Matt's Meds.
+Help 2-yr-old Evan Beat Cancer.
+Please help Alivia Guyotte beat Leukemia.
+Ashton Mantolino's Chemotherapy.
+Alexis Rochefort's Cancer Fight.
+Jim Anderson Cancer Fund.
+Support for Marnie.
+Please Support Nick's Fight.
+Help Chris Beat Leukemia.
+Help the Jackson's Beat Cancer.
+Young man passed from leukemia..
+Super Jack's Fight Against Cancer.
+A Cure for Amy: Cancer Sucks.
+Christie's 3rd Cancer Fight.
+Mark Haueter Cancer Battle.
+April's fight against Breast Cancer.
+Help Claudia Beat Breast Cancer.
+Kevin's Fight.
+Megan's Breast Cancer Journey.
+Renate's Cancer Help.
+Eileen's Breast cancer fight..
+Priscilla's Breast Cancer Fight.
+Sammy's Fight to Beat Leukemia.
+Katy Bowen Banks Brain Cancer Fund.
+Dienamarie's Breast Cancer Fund.
+Paige's Brain Cancer Fight.
+Cancer Patient Health Insurance.
+Betty's Fight Against Cancer.
+Charlie Metcalfs' lymphoma battle.
+Help Ashley's Cancer Fund.
+Natalia's Heart Surgery.
+Help Charles Graham Fight Cancer!.
+My Journey Through Hodgkins Lymphoma.
+Mom's Breast Cancer Treatment Fund.
+Help Erin Fight Breast Cancer.
+Shari's Fight Against Cancer.
+Dr. Subisak's Cancer Treatment.
+Chris Hendrick Cancer Fund.
+Medical Fund for Cancer.
+Suzi's Breast Cancer Fund.
+Daren's Fight against Leukemia.
+Penny Russell Breast Cancer Fund.
+Jessica Carpenter's Leukemia Fund.
+Helping Shari defeat Breast Cancer.
+Byron leukemia fund.
+Bundit (Nutt)'s fund for cancer.
+Battling Breast Cancer.
+Justin's Fight against Lymphoma.
+Stephen Strong! Cancer Fund.
+Help Christy fight Breast Cancer.
+Michelle Bucey's Leukemia Treatment.
+Help Erin fight Breast Cancer.
+Team Nate- fight against leukemia.
+Katie's Breast Cancer Benefit.
+Neysa's breast cancer campaign.
+Support for Tammi & Wes.
+Fight for Christina's Brain Cancer.
+Husband loses wife to breast cancer.
+Help Chong Beat Lymphoma for the second time..
+Help Linda BEAT Cancer.
+Help Milene win the fight!.
+Christy Jo's Fight Against Cancer.
+Help Sonya get through cancer.
+Heather's Fight For Life.
+Help Joseph Gangola Beat Leukemia.
+London's fight against Leukemia.
+Breanna's Leukemia BATTLE.
+Jackie Duggan's Breast Cancer Fund.
+Danni's leukemia battle fund.
+Help Jakob kick cancer's ASS!.
+Trista's Fight Against Cancer.
+Bite Me Cancer -Phil and Charlotte.
+Naomi's Leukemia Fund.
+Marilyn's Breast Cancer Battle.
+Jessica Chavez Breast Cancer Fund.
+Brielle Kicks Cancer ??.
+Help the Larsen Family Grow.
+Amir's Lymphoma Medical Fund.
+Help Kick Leukemia's Ass.
+Brittstrong Medical Fund (Leukemia).
+Love for Lucy: Lucy's Cancer Fund.
+Help Luanne Fight Breast Cancer.
+Help Melissa & Baby Fight Breast Cancer!.
+Kim's Breast Cancer Funds.
+Tiffany's Breast Cancer Fund.
+Help Chloe Crush Cancer.
+Help Istaena Fight Cancer!.
+Steve's Fight Against Lymphoma.
+Matt's Fight with Hodgkins Lymphoma.
+Soldier fighting breast cancer.
+Jon Minner's Lymphoma Fund.
+Natasha's breast cancer bills.
+Help Nicole Hurst Beat Leukemia!!.
+Kendall's Breast Cancer Care.
+Help Michael Burke Fight Leukemia.
+Sergeant Snap's Cancer Fund.
+Teresa's Fight Against Cancer.
+Help Kerry Beat Breast Cancer.
+Help Rachael Rock Breast Cancer.
+Melissa Beats Leukemia.
+Denise Alexander.
+Fertility Rescue & Breast Cancer Bills.
+Morghans Leukemia Fund.
+Help US Complete Our Family.
+Damin Titus Fights Lymphoma.
+Support Jacqueline Marie.
+Help Jen Fight Hodgkin's Lymphoma.
+The Barkley Family Fund.
+Breast Cancer Patient Support.
+Chris Browns' Follicular Lymphoma fight!.
+Shanan's Fight Against Breast Cancer.
+Do It For Hawk.
+Jakes Cancer Relief Fund.
+Help Lucy Fight Leukemia.
+Kylie's Fight Against Child Cancer.
+21 wks pregnantbreast cancer fight.
+Melanie's Lymphoma.
+Team Adam!.
+Reanna's Kicking Cancer's Boo-tay!.
+Nathan Olson with Hodgkins lymphoma.
+Brigitte's Battle With Brain Cancer.
+Lymphoma Cancer.
+Chrissy's Fight with Breast Cancer.
+Rachel's Fight to Beat Breast Cancer.
+Kolton Anderson's Cancer Fund.
+Help Anna Beat Leukemia Again!!.
+Barb's Cancer Treatment.
+HELP! Stage 3 Lymphoma Medical Bills..
+Team Jacquis Fight Against Leukemia.
+Jessie's Battle; Beat Hodgkin's Lymphoma.
+Help Jim & Betty Babjak Cancer Fund.
+Anne's Breast Cancer Fund.
+Cancer WON'T steal our Joy!.
+Fighting Stage 4 Appendiceal Cancer.
+Jeanette's Battle Against Breast Cancer.
+4BabyAlex Beat Leukemia Fund.
+Help Emily's Family Fight Leukemia.
+Treatment for 3rd recurrence of cancer.
+Fight against Breast Cancer.
+Ashleys Fight Against Breast Cancer.
+Help Lyle Conquer Lymphoma.
+Koosmann Breast Cancer Fund.
+Hodgkin's Lymphoma at 27.
+Tami's Breast Cancer Fund.
+Help Keegan Fight Leukemia!.
+Louis Pine Romeros Leukemia Fund.
+Help baby Mason & family fight Cancer.
+Alyssa's Battle Against Lymphoma.
+Miracle Minda McCranie.
+Stevi Lehmann Smallwood Leukemia Fund.
+Let's help Adriana Matos beat Leukemia.
+Pauls fight with Leukemia.
+Phillip Harrison Cancer Fund.
+Danielle's Breast Cancer Medical Fund.
+Help Beat Breast Cancer for Kim Tran.
+Michael Goldstein Cancer Fund.
+Help support a terminal cancer patient.
+Daniel Terry Leukemia Fund.
+Breast Cancer has recurred in the Lungs.
+Ashley Hutson's Fight Against Lymphoma.
+The Washington's Leukemia Fund.
+Rajah's fight against Breast Cancer.
+Norm's fight against leukemia.
+Mom Battling Breast Cancer Has One Dream.
+Help Sophia fight leukemia.
+Monica's Medical Fund Against Lyme.
+Frankies Fight Against Lymphoma.
+Help Finn Fight Leukemia.
+Toren's medical fund.
+Madison's Leukemia Fund.
+Help Angel(Chuko) fight lymphoma.
+Fight Cancer--Have a family.
+Bruce Roiser's Fight Against Lymphoma.
+Ashley Vs Hodgkins Lymphoma Cancer.
+Meghan's Cancer Journey.
+Woodall's Strong - Leukemia Fund.
+Kevin Crossan's Beat Leukemia Fund.
+Help Jen Beat Breast Cancer.
+Wendy's Fight Against Breast Cancer.
+Troy Baisden vs. Non-Hodgkin's Lymphoma.
+My Mothers Treatment - Breast Cancer..
+Medical Bills & Health Insurance Bill.
+Help Mike Beat Stage 4 Cancer.
+Friends in Support of Frank R..
+Healing From Breast Cancer Naturally.
+Breast Cancer Related Expenses.
+Beach Family Lymphoma Fund.
+Help Jenny beat leukemia fund.
+Hodgkins Lymphoma Support- John Cox.
+Tricia Warren's Battling Leukemia Fund.
+Lisa's Battle Against Breast Cancer.
+Help The Hogan's.
+Fighting Lymphoma.
+Cody who has Hodgkins Lymphoma.
+The Baby M Fund.
+Lovett Family Leukemia fund.
+Diagnosed with breast cancer.
+Mom's Leukemia Fund.
+Amanda Gonzales-Future Cancer Survivor!.
+belia's breast cancer fund.
+Help Me Beat Breast Cancer.
+Let's help Emily fight cancer!.
+John's Leukemia Fund.
+Andrew's fight against Leukemia.
+Medical Procedure.
+Help Byron Leavitt Fight Lymphoma.
+Kristie's Fight Against Breast Cancer.
+Help Titus & his family fight leukemia!.
+Sweetest 4 yr old with Leukemia.
+Surviving Metastatic Breast Cancer!.
+Lymphoma Cancer Recovery.
+Paigey Pesko Fights Breast Cancer.
+Living Expenses/Breast Cancer patient.
+#teamlayla lymphoma awareness.
+Help Denise Beat Hodgkins Lymphoma.
+Help Gabby beat cancer AGAIN.
+Brandi'sFight against Breast cancer.
+Help..Remove tumor..Let the baby grow!.
+Baby Stewart ??.
+Madison and Augie Make a Baby!.
+Amelia's fight with breast cancer.
+Deagan Garcia Leukemia Fund.
+Fighting Lymphoma.
+Help needed for hodgkins lymphoma costs.
+Nevaeh 's Battle with Bone Cancer.
+Fayth's Fight for Lymphoma Cancer.
+Help Jeau Allen defeat breast cancer!.
+Join the Fight with Mitch to KO Leukemia.
+Rally for Alli.
+Ashley's Kick Cancer Fund.
+Medical Help.
+Help Jim Kick Lymphoma's Butt!.
+Fighting Hodgkin's Lymphoma.
+Rob's Medical Fund.
+Help Betty in her fight against leukemia.
+Support Steve Chipolis Fight Cancer.
+Take back life from Cancer!.
+Kristie Marmon's breast cancer fund.
+PEPE STILL BATTLING AGAINST LEUKEMIA.
+Sara Medrano's Lymphoma Fund.
+Help Fund Joyce's Battle with Lymphoma.
+Enrique Nieves BoneMarrowTransplant.
+Aaron's Fight Against Leukemia.
+Eden Croteau Hodgkins Lymphoma IV.
+Breast Cancer Fund for Team Ashley.
+Abby's Rally Against Cancer.
+Veteran recovering from lymphoma.
+Adam Roth Cancer Treatment Fund.
+Addy's Army Fights Leukemia!.
+Adeline's little children.
+Adrian's Fight Against Leukemia.
+Help Stephen Fight Brain Cancer.
+Mariah Leukemia treatment fund.
+Breast Cancer Expenses for Sammi Salazar.
+A New Hope.
+Alaya's Fight to Cancer Free.
+Aleah Hockridge Breast Cancer Fund.
+Help Alex Fight Cancer.
+Ali's Cancer Jar.
+Alix's Lemon (Lung Cancer).
+Team Aliya Leukemia Fund.
+Alize's Leukemia Family Assisstance.
+Allie T Colt Brain Cancer Fund.
+Breast Cancer Found My Sister!.
+Allison Hartzell's Cancer Fund.
+Ally Barricklow Lymphoma Treatment.
+Ally's Fight Against Lymphoma.
+Love for Alohilani - Rare Leukemia.
+Alyson's Breast Cancer Fight Fund.
+Christophers Hodgkins Lymphoma Treatment.
+Briana vs breast cancer.
+Help Amy beat cancer.
+Amy's Metastatic Breast Cancer Fund.
+Amy Irvine Breast Cancer Fund.
+Amy's Chemo and Care Funding.
+Amy's Fight Against Breast Cancer.
+Amy Vaughan- Lymphoma Support.
+Anabel's Battle with Lymphoma.
+Ana's Breast Cancer Treatment Fund.
+Anais is stronger than Leukemia!.
+Andrea Spano's Breast Cancer Fund.
+Andrew Schron #DrewStrong.
+Andrew's Fight w/ Brain Cancer.
+Help Andy fight against a rare cancer..
+( Angelika's Angels ) Beat Leukemia.
+Angel's Fund to Fight Lymphoma.
+Aniecellah's Leukemia Fund.
+Anna Shively Breast Cancer Battle.
+Another Fight: Lung Cancer.
+Anthony's battle against Leukemia.
+Lymphoma Expenses Fund (Greenway).
+Ben's Leukemia Expenses.
+Arthur's Recovery From Leukemia.
+Arthur Harbeson's Leukemia Fund.
+Robert Baxter: Lymphoma again dang it!.
+Surviving Metastatic Breast Cancer!.
+Help Ashley Fight Leukemia!.
+Ashley's 2nd Battle with Leukemia.
+Ashlyn's Brain Cancer Fundraiser.
+Lance Kicks Lymphoma.
+Aten Family Cancer Fund.
+Auggie Super Powers bout w/Leukemia.
+Health InsuranceMortgage ....
+Helping Noah Sail through Leukemia.
+Fighting Breast Cancer.
+Todos Por Chichi.
+Flashe Fights Breast Cancer.
+Help Laura Beat Breast Cancer.
+Ando's Army.
+Wanting baby Lindorff.
+Sarah's Breast Cancer Medical Fund.
+VaKesha E. Mays-Breast Cancer Fund.
+Larkin's lymphoma fundraiser.
+Baby Harlow fights cancer.
+Baby Ruth Tanner fighting Leukemia.
+Richelle and Barrett's Baby Fund.
+Hoping for Baby Eberle.
+Baby Kelly's Leukemia Fund.
+Help Baby Shane Beat Cancer.
+Katelyn's Hodgkin's Lymphoma.
+Baskets for Barnum - Fight Leukemia.
+Bástian's Leukemia Treatment.
+Battle4 Brooklyns Fight against Leukemia.
+Christy's Cancer Battle Fund.
+Tiffani's Battle Against Lymphoma.
+Battling breast cancer & broke! :(.
+Help me to battle stage 4 cancer.
+#Battling4Brianna (Beat Leukemia!).
+Beat Cancer for Beto Ordonez Jr..
+Help Fight My Mom's Breast Cancer!.
+Help Trentonn Fight Leukemia.
+Becky's Breast Cancer Support Page.
+Becky's Breast Cancer Benefit.
+Becky's Battle with Cancer.
+Bella the Brave's Cancer Fight Fund.
+Bella Kicks Cancer.
+Theresa's Tatas Breast Cancer Fight.
+Ben's Fight With Leukemia.
+Bennett's Big Battle Against Cancer.
+Berillo's Fundraiser.
+Beth Elder's Cancer Treatment.
+Beth beating Breast Cancer..
+Help Make Our Dream Come True!.
+Beth's cancer support.
+Betsy's Fight Against Cancer.
+Support Dana- Stage4 Breast Cancer Tx.
+Living with Blood Cancer (Lymphoma).
+Help for Lynda.
+Cycle America For Leukemia Research.
+The Rocca's Breast Cancer Journey.
+Bill Dozier Lymphoma Treatment.
+Help Bill Bloom fight lung cancer.
+Help Ellis Heal From Leukemia.
+Blake Green Needs Our Help.
+Blake Lockwood Lymphoma Fund.
+Blondie's Breast Cancer Battle.
+Gria's Breast Cancer Fund.
+BOC's Fight Against Cancer.
+Support Scott's fight w/Cancer.
+Bonnie's fight against Lymphoma.
+Robert Botkin fighting cancer.
+Knock-Out Breast Cancer.
+Fighting Breast Cancer!.
+Brad Duell Fighting Leukemia Take 2.
+Help Bradyn Melton Beat Leukemia!.
+Brandi's Breast Cancer Fight.
+Brandon's Fight Against Lymphoma.
+Brandy Battles Breast Cancer.
+Breanna's Lymphoma Fund!.
+Breast Cancer Fight at the age 28.
+Breast cancer beat down for Kim!.
+Bree's Fight Against Cancer.
+Brenda's Breast Cancer Fight.
+Brenda's Kicking Cancer to the Curb.
+Brett Harrelson Leukemia Fund.
+Walt's Medical Fund.
+Kevin Crossan's Beat Leukemia Fund.
+Brian 'Brute' Pilgrim vs Lymphoma.
+Brian's Battle to Beat Leukemia.
+Brigida's Cancer Fund.
+Bring hope to stop my mom's cancer.
+Want To Join A Fight??!!.
+Britta Haddens Fight Against Cancer.
+Help Brooke Beat Colon Cancer!.
+Brooke's Lymphoma Fight.
+Brooklyn Lane Cancer Treatment.
+Lisa Getz Breast Cancer Support.
+Kim's Breast Cancer Fight.
+Bryanna's Leukemia Fund.
+Bryan's Stage 3 Hodgkin's Lymphoma.
+Bryce Vs. Leukemia.
+Brycen vs Cancer Round 1.
+Bruce Rosen's Battle with Lymphoma 2014.
+Veteran Battling Lymphoma.
+Butterfly Warrior Brain Cancer Fund.
+Neda's Breast Cancer Treatment.
+Team Jennifer Battles Breast Cancer.
+Amy's Fight Against Stage 4 Lymphoma.
+Jean's Battle To Beat Cancer.
+Team Kristen Ruffolo Breast Cancer Funds.
+Help Corynn fight breast cancer!.
+Heather's Fight Against Cancer.
+The Breast Cancer Battle!.
+Leukemia bone marrow transplant TLC.
+Caitie's Breast Cancer Fight Fund.
+Help us to start a family!!.
+Bruce Roiser's Fight Against Lymphoma.
+Cancer treatments & Wedding day.
+Ericka: Cancer Can Kiss My Ass!!.
+Deirdre McKenna Fights Leukemia!.
+Captain Mike Lyons cancer care fund.
+Caroline's Fancy New Hip.
+Carol's cancer cure.
+Cary's Cancer Fund:Flight to fight.
+Cash for Christa.
+Help Us Make Our Family Possible!.
+Help Cassy beat Breast Cancer again!.
+Cat Pursel's Breast Cancer Fund.
+Triple Hit Lymphoma Leukemia.
+Catherine Neal's Cancer Treatment.
+Help Gavin beat Hodgkins Lymphoma.
+Help Cody beat Hodgkin's Lymphoma.
+Mollie Mills Sheppard Needs Your Help!.
+Lupita's Fight Against Lymphoma.
+Cecilia's Fight Cancer/ IVF Fund.
+Leukemia picked the wrong Princess.
+Chad vs. Leukemia.
+Chad's Fighting Leukemia Fund.
+Metastatic Breast Cancer-The 3PEAT.
+Chantel's Breast Cancer Fund.
+Charlie Peter's Leukemia Fund.
+Charlie's Leukemia Fund.
+Help My Breast Cancer Journey.
+Char's Ovarian Cancer Support Fund.
+Team Frank - Fight Against Lymphoma.
+Chloe Palmer stage 4 cancer battle.
+Chris and Lora's Make a Baby Fund.
+Help Chris Lyons Fight Lymphoma.
+Chrissy's Child Breast Cancer Fund.
+Mike Turner's APL (Leukemia) Fight!.
+Christina's Beat Cancer Campaign.
+Family Of Christina Torpie.
+Help Christine Crush Cancer.
+Christy's Breast Cancer Fund.
+Chris Yingling Burkitt Lymphoma.
+Chuck Hill Surgical Fund.
+Ciani's Lymphoma Medical Fund.
+Fight against breast cancer.
+Cindy Linares fighting leukemia.
+CJ's Medical Fund.
+Sheri DeSimone breast cancer fund.
+Help Claire Kick Cancer's Ass.
+Clayton's Medical Fund.
+Kim Cook Breast Cancer Fund.
+Dawn Williams - Breast Cancer.
+Hodgkin's Lymphoma Warrior.
+Amber's Fight Against Leukemia.
+Lin Anderson Breast Cancer Support Fund.
+Coach Garcia is fighting Leukemia.
+Colleen's Breast Cancer Fund.
+College Graduate to Cancer Patient.
+Complete Our Family.
+Coral tackles Leukemia.
+High price of having Cancer.
+Meleasa's Breast Cancer Fund.
+Mom's Cancer Fighting Medical Fund.
+Crushing Cancer.
+Crystal's Fight against Leukemia.
+Ashely kicking lymphoma's ass.
+The Road to Landen's Cure!.
+Jayden's Childhood Leukemia Fund.
+Help Tara Slay Breast Cancer.
+Renee's needs for Breast Cancer.
+Fighting lymphoma cancer.
+Jeremy's battle against Leukemia.
+Mackenzie's Fight Against Lymphoma.
+Ian's Leukemia Battle.
+Jody's fight vs Breast Cancer.
+Help Danny fight leukemia.
+Dad's Lymphoma Battle Expenses.
+Damian Secol's Medical Fund.
+Dan Mullin Cancer Relief Fund.
+Help Jen Kick Breast Cancer's Ass.
+Danelle's Leukemia Relapse.
+Danielle Eljor.
+Help a reporter beat breast cancer.
+Danielle's Breast Cancer Fund.
+Help Me Fight Leukemia.
+Fighting Lymphoma & Hoping For Some Small Miracles.
+Danni Kemp's Cancer Support Fund.
+Dan Schwerdtmann's Cancer Battle.
+Dante Liska's Cancer Relief Fund.
+Help my mom beat breast cancer.
+Darlene's Breast Cancer Fund.
+Dave's Fight with Lymphoma.
+David Parker's fund to beat cancer.
+Davids Cancer Treatment.
+Dawn's Breast Cancer Fund.
+Help Dawn Faust Bibby Beat Cancer.
+Dawson_fit fight against Leukemia.
+Non hodgkins lymphoma cancer.
+Diana's Breast Cancer Battle.
+Deanna's Breast Cancer Funds.
+Deborah Moulder Cancer Fund.
+Debbie's Breast Cancer Treatment.
+Debbie's Fight Against Cancer.
+Deb Myrick vs stage 3 breast cancer.
+Mother of 4 fights Breast Cancer.
+Deidre's Cancer Treatment.
+DeeFeat Deidre's Breast Cancer.
+Delacour Family Cancer Fund.
+Delynn's Emergency Cancer Fund.
+Denilena Hodgkin's Lymphoma.
+Help Denise Battle Breast Cancer.
+Denise's breast cancer fight.
+Denise's Rally Against Cancer.
+Help Dennis As He Battles Lymphoma!.
+Derek Wilson's Post Surgery Fund.
+DeRienzo Strong.
+Devon Strong.
+Please help Damian fight leukemia!.
+Come Together for Kimberly.
+Liz Garner Breast Cancer Fund.
+Pete has no health insurance.
+4th time Breast Cancer survivor.
+Diana's breast cancer BATTLE.
+Diane's Breast Cancer Fund.
+Dino's Lymphoma Treatment Expenses.
+DJ'S lymphoma Fight.
+Duane Dlouhy's Fight Against Cancer.
+Donna Marino Breast Cancer Foundation.
+Help Jasmin beat Breast Cancer.
+Lisa Fighting Breast Cancer.
+Dom's treatment for Leukemia.
+Donate4Mike.
+Debbie's Breast Cancer Treatment.
+Donna's fight against breast cancer.
+Donyelle's Breast Cancer Benefit.
+Doug Lindstrom's Cancer Obstacle.
+Christina Doyle Leukemia Fund.
+Help Mahlon "Kick Leukemia's Butt.
+Jeanette's Breast Cancer Fight.
+Evan Fytros Cancer Fund.
+Dustin Luebke.
+Lymphoma Treatment.
+Amber fights breast cancer.
+Dylan's Autism Treatment Program.
+Help Carolyn beat Leukemia.
+Allison Breast Cancer Medical.
+Fred's Leukemia Fund.
+Medical Bills for Breast Cancer.
+-DeShawn Vs. Lymphoma-.
+Cancer Bills Medical Fund.
+Beth's Lymphoma Treatment.
+Help Emily Cormaney Fight Lymphoma!.
+Brandy's Battle Against Lymphoma.
+Eddie's Fight Against Cancer.
+Ed Coglio's Fight Against Leukemia.
+Help Chad beat Leukemia.
+Courtney Nelson's Cancer Fight!!!.
+Andy's Support & Recovery Fund.
+Dennis' Fight Against Lymphoma.
+Medical Bills Breast Cancer.
+EILEEN -vs- Breast Cancer!.
+Fight Against Breast Cancer.
+Help Mikey Fight The Fight.
+Elisa's Breast Cancer Journey.
+Eli's Battle against Leukemia.
+Elizabeth's Breast Cancer Journey.
+Elizabeth's Leukemia Recovery.
+Abby's fight against Leukemia.
+Lisa Baker's Breast Cancer Battle.
+Making it Count for Emily.
+Emily's Breast Cancer Help.
+Emily Buchanan Breast Cancer Fund.
+Emily Pritchett.
+Emma's Fight Against Cancer!.
+Help Emmie Beat Cancer.
+#EMpowered to Beat Lymphoma.
+Help me save my eggs!.
+Mikaela's fight against Leukemia.
+Join Jeff's Army against Lymphoma.
+Erb IVF Fund.
+Eric's AML Fund.
+Help Erica Battle Breast Cancer.
+Erika's Hodgkins Lymphoma Journey.
+Help Save Erik Bergstrom.
+Erik's Fight Against F'ing Cancer.
+Erin's Fight Against Cancer Fund.
+Erin's Fight against leukemia fund.
+Erin (Tobin) Pratt's Leukemia Fund.
+Aaron's Medical Fund.
+The Journey to Beat Breast Cancer!.
+Espy's battling cancer fund!!.
+Esther's Breast Cancer Recovery.
+#TeamEthan-Ethan's Cancer Treatment.
+Evelyn's(Mom) breast cancer battle.
+Help Carline battle Lymphoma.
+Help Evan Moss Fight cancer.
+Evan's Fight Against Leukemia Fund.
+Evelyn & Kyle's Beat Cancer Fund.
+Evelyn's Cancer & Life Expenses.
+Mad LOVE #2.
+Elaine WIlliams Breast Cancer Fund.
+Adam's fight against Lymphoma.
+Jenni and Petes Journey.
+Aniston's Fight Against Leukemia.
+Hoping for the blessing of a child.
+My Sister has lymphoma cancer.
+Kathy Bannon Stage 4 Breast Cancer.
+Help The Johnsons Fight Leukemia.
+Go For Watson Alpha!.
+Leo MB Fights Leukemia!.
+Skylar's Leukemia Fund!.
+Bryan's Leukemia Fund.
+Mikes Health Insurance Fund.
+Rachel Yoder's Breast Cancer Fund.
+Fight for Brayden Leukemia Fund.
+Connor's Beating Brain Cancer Fund.
+My Sister Jody's Breast Cancer Fund.
+Fight with Joey Against Lymphoma.
+Diane Marron: Battle Against Cancer.
+Paul's Fight Against Leukemia- AML.
+Fighting Rare Sarcoma Cancer.
+son w/ t-cell lymphoblastic lymphoma ca.
+Josh Byrd Leukemia Fund.
+GARZA FAMILY LEUKEMIA FUND.
+Fight Like Kate: Beat Breast Cancer.
+Rolando's Fight Against Cancer.
+Lymphoma Recovery fund for Elias.
+Fisher's Fight Against Leukemia.
+LEO'S LYMPHOMA CANCER FUND.
+My fight against stage IV Lymphoma.
+Aimee's Breast Cancer Fight Fund.
+Damaris' is battle in with Lymphoma.
+Help Terry (momo) beat lymphoma.
+Help Blaine Kick Leukemia's Butt.
+My Friend has acute leukemia.
+Charlene's Breast Cancer Battle.
+Help Conner Zap Leukemia.
+Breast Cancer  Living Expenses.
+Give Cancer a Workout!.
+Marita's Breast Cancer Fight Fund.
+Lymphoma treatment help.
+Frances Fight Against Lymphoma.
+Franco vs Lymphoma.
+Frank and Lyn's Future Family Fund.
+Franks Lymphoma Expense Fund.
+Cancer sucks - help Frappy beat it!.
+Freda's Battle Against Lymphoma.
+Help Bert fight Non-Hodkins Lymphoma.
+Manuel Needs your Help.
+Fighting Breast Cancer With Amber Herauf.
+Help Hayley Tuckey fight Leukemia.
+Cancer Battle Fund.
+Rumer's Cancer Treatment and School.
+Help Me Kick Lymphoma's Ass!.
+Grace's Medical Fund.
+HELP LARRY THROUGH CANCER.
+Linda's AssLiver Cancer Med Fund.
+Help me secure my future my dream.
+Medical Bills for Lymphoma Removal.
+Robin's Breast Cancer Fund.
+Jackie's Battle with Breast Cancer.
+Steps with Staussen.
+Jessica's breast cancer fight.
+Help Angelique Beat Cancer!!.
+Help Support Landon's Cancer Fight.
+Help Brianne kick cancers ass again.
+FIGHT WITH GABBY-BEAT BREAST CANCER.
+Gabe Ortiz Hodgkins Lymphoma Fund.
+Gail Stotz lymphoma relief fund.
+Gauge's Leukemia Fight Fund.
+Olivia Henkel Leukemia Fund.
+Jordan's Fight Against Leukemia.
+Geoff Masci - Cancer Sucks!.
+Get Me Cancer Free!.
+Stephanies Breast Cancer Battle.
+Team Nick/leukemia.
+Hero Fund.
+Help Anne Pursell Beat Cancer.
+Help Gill Kick Lymphoma in the Face.
+Gina's lifesaving kidney fund.
+Giving the Goggans a Baby.
+Besmire's chronic leukemia help.
+Gloria Beats Breast Cancer.
+Bone Marrow Transplant due to Lymphoma.
+Robyn versus Lymphoma.
+Keisha's Fight with Breast Cancer.
+Join Alex's Fight Against Cancer.
+Help Chris Beat Hodgkin's Lymphoma.
+Jameson Hodgkin's Lymphoma Fund.
+Help Michelle beat Hodgkin Lymphoma.
+Pearl Rojas Leukemia Fund.
+Help Our Mom Fight Cancer.
+Greg Germani - Give for Greg!.
+Greg's Cancer Fight and Struggles.
+Greg Surman Fighting Lymphoma Fund!.
+Greyson Beating Leukemia.
+Love for Locking! F#$@ Cancer!.
+H.H. Gunagrahi Goswami Cancer Fund.
+Judy Fighting Breast Cancer.
+Charisse Fight with Breast Cancer.
+CHASE-ing a CURE for CHASE.
+Future Baby Scott.
+Catalina's Leukemia Battle.
+Fighting Lymphoma with Martha Torci.
+Donna's Breast Cancer Treatment.
+Shaving my hair for Haley McDonald!.
+Halley Monforte Fights Cancer.
+Hannah Jones-Heden Lymphoma Support.
+Help Hannah Arthur Beat Leukemia.
+Let's help Laura fight Lymphoma!.
+Harrison Leukemia Fund.
+Help Hayden beat Leukemia.
+James Hendryx's Lymphoma Battle.
+Mama Daddy Cayden and Camden.
+Blane Lyon Cancer Recovery Fund.
+Health Insurance for Franco Family.
+Heidi's breast cancer battle.
+Helen Bogart Breast Cancer Fund.
+Cancer Treatment Expenses.
+Help Alan Sheets Fight Leukemia.
+Help Alberta Abonza beat leukemia.
+Help Alex Fight Leukemia.
+Help Annie Fight a Rare Cancer.
+Help Ash kick cancers butt!!!.
+Help Ashley Beat Leukemia!.
+Help Baby Julia Who Has Cancer :(.
+Help Brandi L Aspinall Medical Fund.
+Help Brian fight cancer.
+Help Briana Preserve Her Left Eye.
+Help Brittany kick Leukemias ass!.
+Help Brooke Beat Breast Cancer!.
+Help Caden fight cancer.
+Help Carson Beat Neuroblastoma.
+Help In My Battle With Cancer.
+Help Danielle kick cancer!.
+Help Denise Beat Breast Cancer.
+Help Doris Fight Breast Cancer.
+Help Elena Beat Leukemia.
+Help Ella Mae beat Leukemia!.
+Help Ellie Crush Cancer.
+Support My Fight - Stage IV Cancer.
+Help for Emmilou.
+Help for Tom Fox.
+Help Garrett Kick Cancer's Butt.
+Help Gia Fight Cancer!.
+Help Giang fight cancer!.
+Help Jacklyn fight Breast Cancer.
+Help Jackson kick cancer's butt!.
+Help Jaxson Peterson Kick Cancer.
+Help Jessica Beat Cancer!.
+Help Joe Kick Cancers Ass!.
+Help Jordan Fight Brain Cancer.
+Help Kelly Beat Breast Cancer!.
+Help Kim Kick Cancer.
+Help Korey Eriksen Beat Cancer.
+Help Larry Moreland Beat Cancer! Again!.
+Help Larry help Mom fight Cancer.
+Help Leonard Beat Cancer!.
+Help Lori Phelps Beat Cancer.
+Help Mallorie Knockout Cancer.
+Help Maureen with Cancer Treatments.
+Help Maya Beat Cancer!.
+Help me beat Leukemia!.
+Help me fight my Colon Cancer!.
+Melody's fight against brain cancer.
+Help Michelle Beat Breast Cancer.
+Help Mike fight off Cancer.
+Help Mike Mo FightCancer #MoPower.
+Help Moises Peña beat Leukemia.
+Stage 4 Hodgkins lymphoma lets win.
+HELP MY BROTHER FIGHT LYMPHOMA.
+Help Nick battle Leukemia.
+Help Nora fight Leukemia.
+Support Henry's cancer journey.
+42 y/old Stage 4 NonHodgkins Lymphoma.
+Help Prescott Fight Leukemia.
+Help Rachel Battle Lymphoma.
+Help Rebecca fight brain cancer.
+Help Ron Caster Sr. defeat leukemia.
+Help Sarah Beat Cancer.
+Help Sebastien to Talk and make Friends.
+Help Nikki fight Leukemia.
+Help Shaun Fight Cancer.
+Support Sofia through her relapse!.
+In Memory Of Sue Farrell.
+Help Super Sage fight cancer.
+Help Kristy Beat Breast Cancer!.
+Memorial Fund for Susie Kimmel.
+Help Tahnia Fight Breast Cancer.
+Hunter Stalford Battling Leukemia.
+Help Tommy with cancer treatment..
+Help Tonya Fight Cancer With HOPE!.
+Help Tyler beat Hodgkin's Lymphoma.
+Help Victoria Beat Breast Cancer.
+Help Olivia Beat Brain Cancer.
+Help Zachary Fight Cancer.
+Single Mom Fighting Breast Cancer.
+Help Brandon Beat Leukemia !.
+Help Carla beat Lymphoma Cancer!.
+Help Carmelo Beat Leukemia.
+Help Chanda Beat CANCER Fund.
+Help Cherie Battle Stage 4 Breast Cancer.
+Help Christina Beat Cancer.
+HELP COLBY FIGHT LYMPHOMA.
+Help Cidney Hays Fight Leukemia.
+Help Dovi Muchnick Beat Cancer.
+Help Erin fight cancer.
+HELP FAYE WITH CANCER TREATMENT!.
+Help Hannah battle cancer.
+Helping Hannah Destroy Leukemia.
+Help Janet Beat Lymphoma!.
+Helping Terence Kick Leukemia.
+Lifting Liza as she LicksLymphoma.
+Help Jen Fight Brain Cancer.
+Help Jessica Beat Breast Cancer.
+Help Katie Fight Breast Cancer.
+Triple Negative Breast Cancer fund.
+Laci's Rally Against Breast Cancer.
+Help to pay for breast cancer bills!.
+Help Luke Beat Brain Cancer.
+Help Mahlon "Kick Leukemia's Butt.
+Help Michelle Beat Breast Cancer!.
+Miller Life Cancer Fund.
+Help My Mom With Her Breast Cancer!.
+Support Noreen against Leukemia!!.
+Ryan Fischer Lymphoma Fund.
+Help Save Patti's Life!.
+Breast Cancer Medical Expenses.
+Help Us Help Molly Holzschlag.
+Breast Cancer.
+Help Zach & Family Fight Lymphoma.
+Briana vs breast cancer.
+Jess's Breast Cancer Support.
+Fighting Leukemia for Shawn Simon.
+Support Joe Through Lymphoma.
+danny's fight against lymphoma.
+Eli's Leukemia Fund.
+Holding together the pieces.
+Help Team Hough DEFEAT Cancer.
+Gillian's Breast Cancer Fund.
+Help Kelly Munro Beat Leukemia.
+Helen Ward's Breast Cancer.
+Hugh's Leukemia Fight Fund.
+Hugo's Leukemia Treatment Fund.
+Huml Family Medical/Cancer Fund.
+I have terminal liver cancer.
+Mom's Lymphoma Fund.
+Scott Swanson's Lymphoma Treatment.
+Iman's Fight Against Cancer.
+Inflammatory Breast Cancer Research.
+In Vitro (IVF) Fund.
+Ingrid's Fight Against Cancer Fund.
+Help Lisa Battle Breast Cancer!.
+Tony Lopez vs. Hodgkin's Lymphoma.
+Irma Ruiz' Fight Against Leukemia.
+Metastatic Spinal Cancer. Help Mom!.
+Breast Cancer Expenses for Sammi Salazar.
+Sarah's Fight Against Breast Cancer.
+Fund Cassie&Mikes Healthy Children.
+Help Ann Dignan Fight Breast Cancer.
+Rhonda's battle with Breast Cancer!.
+Help Gayla Beat Breast Cancer.
+Fighting Lymphoma with Wendi Hearrell !!!.
+Help Brian Fight Lymphoma!.
+Lucy's battle with lymphoma.
+Sharon: Hear me roar! Beat Lymphoma.
+Chris Greenman' cancer fund.
+Tai Thai's fight against Leukemia.
+Jackie Fighting Breast Cancer.
+Jackson Werth's Leukemia Fight Fund.
+Jackson's Battle Vs. Leukemia.
+JACOBS FIGHT WITH LYMPHOMA.
+Jaime's Breast Cancer Fight!!!.
+Hodgkin Lymphoma Survivor.
+Jake's Cancer Fund.
+Jake Lucash Medical Fund.
+Help James Beat Leukemia.
+Dad Lost his Battle with Lymphoma.
+James' Fight Against Leukemia.
+James Lillo's Cancer Treatment.
+Jameson vs Lymphoma.
+Jamie's TNBC - War On Breast Cancer.
+Jamie's Love Away the Cancer Fund.
+Paul & LaRita 's Health Insurance.
+Jared CANCER-VIVE Stage IV Drive.
+Alyssa and Jason Need Your Help.
+Jason Nagel-Cancer Recovery Fund.
+Jayden's Journey with Leukemia.
+Jenny B. vs Breast Cancer.
+Jean Paul's Cancer Battle.
+Jeanie's Journey ~ Lymphoma Fight.
+Save My Husband Lymphoma #4 Bills.
+Jeff DeWitt Lymphoma Benefit.
+Jen and Jenna Infertility Support.
+Help Jenalyn Beat Leukemia!.
+Jeni Kern-Bruns Stage 4 Cancer Fund.
+Jennifer's Family Fund.
+Team Jennifer Battles Breast Cancer.
+Jennifer's Cancer Treatment/Therapy.
+Help Jenny Fight Breast Cancer.
+Jen's Liposarcoma Recovery Fund.
+Help Jen Kick Breast Cancer's Ass.
+Hope for Jeremy Farrara..
+Jeremy's Fight Against Leukemia.
+ALOT OF LOVE TO GIVE.
+Jessica's Battle with Leukemia.
+Jessica Fights Breast Cancer.
+Help Jessica Beat Breast Cancer.
+Jessica Smith Fights Breast Cancer.
+Jessica's Fund for Breast Cancer.
+Jessie's Breast Cancer Treatment.
+Help Jessica Beat Stage 4 Cancer.
+Diane Howard Fighting Breast Cancer.
+Help Rena fight breast cancer.
+Help Support Jill in Her Battle with Stage IV Breast Cancer.
+Jilly Jane Fights Leukemia.
+Help my sister KO Breast Cancer.
+Jim Weil cancer fight.
+Jimmy's Leukemia battle.
+Jimmy Soder--Stronger than Leukemia.
+Jim's Myositis Treatment Fund.
+Jinnan's Rally Against Cancer.
+Billi Henshaw Breast Cancer.
+Cindy Lewis Leukemia Fund.
+Stage4 Lymphoma Cancer Ed Mead Fund.
+Roselynn's Fight Against Leukemia.
+Kaydens leukemia fund.
+Alley fights Stage 4 Hodgkin lymphoma.
+Joe Dorosz Healing and Recovery.
+John Russo's battle vs lymphoma.
+John's Destruction of Cancer Plan.
+Help Team Gabriella fight cancer!.
+Tara's Fight Club.
+ROCKSTARJolie vs.Leukemia FundDrive.
+Joni Whitt Williams' Leukemia Fund.
+Jonna's journey with breast cancer.
+Medical Fund For Jordans Transplant.
+Jordan's fight against Cancer.
+Jordan's Leukemia Battle.
+Jose & Lisette Battle Cancer.
+Joseph Aml leukemia.
+Jose's Cancer Fight.
+Jose's Fight With Lymphoma.
+Jose's Team- fighting leukemia together.
+Joba's Fight against Breast Cancer.
+Our favorite Campus Minister!.
+John Beutz Family.
+Fighting leukemia.
+Help Mike Fight Lymphoma.
+Help John Battaglia fight Lymphoma!.
+Juan's Battle Against Leukemia.
+Jude fights relapsed leukemia.
+Julie Kearney's Rally Against Cancer.
+Dave and Julie Hendrickson.
+JULIE BREAST Cancer fund.
+Julie Muir Medical Fund.
+Julie's fight vs. Breast Cancer.
+Justin Crawford Fightin Cancer Fund.
+Justin's Kick Cancer in the Butt.
+Merry's Breast Cancer Fund.
+Jill's Breast Cancer Fund.
+Stephanie's fight against Lymphoma.
+Jonathan Lanciano Lymphoma Fund.
+Jared Ornoski - Hodgkin's Lymphoma.
+Hodgkin's lymphoma.
+Jessica's Fight Against Leukemia.
+Landon's Fight Against Leukemia.
+Jaime's Cancer Battle.
+Help Egee Mabolis!.
+Zabrina's Hodgkins Lymphoma Fund.
+Maricela Overcoming Breast Cancer.
+Kaci's Beat Breast Cancer Fund.
+Kaela's Chance To Beat Leukemia.
+Kaelyn Hazelwood Brain Cancer Fund.
+Kai McAlpin Leukemia Fund.
+Karen's Fight Against Lymphoma.
+Support Kari's Breast Cancer Battle.
+Karl Zartler Cancer Fund.
+Help Karla Battle Hodgkins Lymphoma.
+Saving Karter-Fight Against Cancer.
+Katarina's Leukemia Fund.
+Kate Lytton's Cancer Treatment.
+Kathleen's Cancer Journey.
+Kathryn's Cancer Cure.
+Kathy's Cancer Champions.
+Help Katrina Schoorl Fight Cancer!!.
+Kayden Tanner Healthy Heart Fund.
+Triple Negative Breast Cancer fund.
+Donna Russell is beating lymphoma.
+Hawley Woods Breast Cancer Support.
+Keegan's Kidney Cancer Treatment.
+Help Keelar Beat Breast Cancer Fund.
+Keith Raines vs. Lymphoma.
+Kellen's Cancer War: Rogue Gland.
+Kelley's Breast Cancer Battle.
+#Polistrong brain cancer fund.
+Kendra Haddock Stage 4 Cancer Fund.
+Kenny's leukemia fund.
+Kenzie's Fight Against Leukemia.
+Kerie's Breast Cancer Fund.
+Kerly's DLBCL Lymphoma Battle.
+Kerri and Matt's Survival Fund.
+Keven Johansen overcoming Leukemia.
+Kevin Crossan's Beat Leukemia Fund.
+Kevin's Battle Against Leukemia.
+Kick Cancer's Ass Kevin!.
+Help Emily Fight Cancer!.
+Khadeeja's lymphoma treatment.
+Kicking Cancer Where It Hurts.
+Help Mom Battle Breast Cancer.
+Kickin' Breast Cancer for Seidy.
+Kelly's Fight against AML Leukemia.
+Trenda's Kids After Cancer.
+Raising Money to Kill Hodkin's Lymphoma.
+Kimberly Morton Cancer Fundraiser.
+Kimberly's Breast Cancer Fight.
+Kimberly's Rally Against Lymphoma.
+Kimmy Kicks Cancer.
+Kim's Fight Against Breast Cancer.
+Kim Strong.
+Kim Gordon's Fight Against Leukemia.
+Help Kinkades Fight Genetic Disease.
+Kinsler Breast Cancer Treatment.
+Help Kirsten Beat Breast Cancer.
+Kirsten's Cancer Fund.
+Logan Greenwald Leukemia fund.
+IVF Procedure /Cancer Treatment.
+Help Steph KO Breast Cancer.
+Julissa's lymphoma medical fund.
+Korey's Cancer Treatment fund.
+Kurt's fight against Leukemia.
+Amanda Wright Fights Lymphoma!.
+Healing My Breast Cancer.
+Kristine's Lymphoma Medical Fund.
+Kristin's Leukemia & Lymphoma's TNT.
+Amelia's fight with breast cancer.
+Karen's Breast Cancer Fund.
+John Chapman's APL Leukemia Journey.
+Firefighters with leukemia Allen Keys.
+Kyesia's Fight Against Cancer.
+Kyla's Fight With Leukemia.
+Single Mom with Breast Cancer..
+Kyleigh's Fight- Hodgkin's Lymphoma.
+Cadet Kyle Rima's Cancer Treatment.
+Ky's Fight Against Leukemia.
+Miranda's Breast Cancer Fund.
+Help Lacey Beat Lymphoma.
+Laci's Leukemia Fund.
+Kia's Breast Cancer Recovery Fund.
+Support Our Friend Laine's Recovery.
+Lajla's fight against Leukemia.
+Team Lamount-Hodgkin Lymphoma Fight.
+Landon's Leukemia Treatment Fund.
+Landon's Cancer Surgery & Treatment.
+Lang family leukemia support.
+Larry's Rally Against Cancer!.
+Fight against Breast Cancer.
+Laura's 2nd Battle with Lymphoma.
+Lauren Zelt Stage 3 Breast Cancer.
+Lauren's Breast Cancer Fund.
+Lauren Irene (ALL Leukemia).
+Lauren's Lymphoma Battle.
+Laurie Ford Cancer support fund.
+Lauren's Cancer Fighting Fund.
+Lets help Ivan beat Leukemia.
+In Memory of Leah's Fight with ALS.
+Help Leigh Fight Breast Cancer!.
+Lenny Passantino.
+Leonarda is fighting breast cancer!.
+Leo's Leukemia Fund.
+Leslie Ann Breast Cancer.
+Let's Help Jimmie Fight Cancer ....
+Leukemia Cancer Benefit for Charlie.
+Lauren's Journey with Leukemia.
+Team Lexi.
+Alexa's Fight with Leukemia.
+Join Sgt White's cancer fight.
+Liam's Leukemia treatment.
+Liane's Lymphoma Cancer Fund.
+Lily's Fight Against Leukemia.
+Linda Parker Foundation.
+Lindi's Leukemia Fund.
+Lindsay's Kick Butt Leukemia Fund.
+Lindsay's Battle with Lymphoma.
+Lindsey's Way Fighting MS.
+Lisa Mitchell Leukemia Team FIGHT.
+Love to Lisa Breast Cancer.
+Lisa's Battle against Breast Cancer.
+Help Lisa Basler Fight Cancer.
+HELP LIZZY BEAT HODGKINS LYMPHOMA.
+Please help Ritchie fight Lymphoma.
+LLS Donation by Sudol Strider's.
+Betty Jo battles Breast CANCER.
+Help 8mo old Kacper beat Eye Cancer.
+Donovan's Lymphoma Fund.
+Jody's Breast Cancer Fund.
+Veronica Z Stage 4 breast cancer.
+Matt Logsdon's Cancer Battle Fund.
+#LongStrong Leukemia Fund.
+Louise's Breast Cancer Medical Fund.
+#LOVE4LAUREN - Beat Cancer Fund.
+Lana's Fight Against Leukemia.
+Ming Hui Leukemia Fighter!!.
+Grayson's Fight.
+Help Koby Lovelady Fight Leukemia.
+Danika Keyser's Leukemia Fund.
+Lucy's Fight Against Leukemia.
+Ryan's adventure with Cancer.
+Luis Rosales Cancer Fund.
+Lung Cancer Treatment.
+April Martin -cancer/diabetes.
+Medical Bills / Other Bills.
+#LynchStrong Leukemia Fund.
+Madonnas Cancer Battle.
+Fighting Breast Cancer.
+Mickey's Medical Fund: Brain Cancer.
+Mike Turner's APL (Leukemia) Fight!.
+Debi's Fight Against Breast Cancer.
+Help My Mom Beat Breast Cancer.
+Surviving for my Sydney.
+Rachel's Breast Cancer Battle.
+Maegan's Cancer Battle.
+Single mother of 2 w/breast cancer.
+Our much-loved Magda needs you!.
+Aaron's Leukemia Fight.
+Makayla's Battle with Cancer.
+She Deserves to be a mommy.
+Help Chris Beat Cancer!.
+Debi's Fight Against Breast Cancer.
+Mama Gines Breast Cancer Fund.
+Biesinger Family.
+Mandy Will Beat Lymphoma!.
+Maralyn McMinn cancer support fund.
+Help Maria Cano Beat Breast Cancer.
+Marian Nacev.
+Maria 's Breast Cancer Surgery.
+Maria's fight against Lymphoma.
+Mariateresa's Breast Cancer Battle.
+Mark's Non-Hodgkins Lymphoma Fund.
+Lymphoma has returned.
+Marlee May Fights Cancer.
+Momma's Breast Cancer Treatments.
+Help Maruska Beat Cancer!.
+Mary Courtney's Cancer Battle.
+Mary's Breast Cancer Battle.
+Mason's Fight Against Leukemia.
+Mateo Tough - Fighting Leukemia.
+Matthew Leukemia Fight.
+Matt's Stomp Out Cancer Fund.
+Matt Bull's Cancer Treatment.
+Max Klett's Battle Against Lymphoma.
+Mayah's Fight Against Leukemia.
+Mayann's Kick Cancers Butt Fund.
+Help Gisenia Fight Leukemia.
+Breast Cancer Expenses for Sammi Salazar.
+S&B McDowell Family Fund.
+Help Me Survive Breast Cancer.
+Mom's Breast Cancer Fund.
+Megan Procaccio Fights Lymphoma.
+Megan's Fight Against Leukemia.
+Help Melanie Beat Leukemia!.
+Melissa's Metastatic Breast Cancer.
+Melissa's Breast Cancer Battle.
+Melissa's Breast Cancer Fight.
+Mom battling stage4 Lymphoma.
+Post-Op Breast Cancer Warrior.
+Celia Givens Breast Cancer Meds.
+Mimi's Fierce Fight Against Cancer.
+Living with Stage 4 Breast Cancer.
+Michael Stone Stem Cell Transplant.
+Breast Cancer Healing Journey Fund.
+Michelle Hernandez's Battle Fund.
+Battling cancer lymphoma.
+Help Michelle Brennan kick breast cancer.
+Midas' Chemo Bills.
+Marisa's Fight Against Leukemia.
+Mike Williams Leukemia Fund.
+Mike Bauman's Cancer Fund.
+Mikes fight against Lymphoma.
+Mike Stewart Cancer Expense Fund.
+Mildred's Breast Cancer Battle.
+Pregnant and Battling Breast Cancer.
+Mily's Fight Against Leukemia.
+Chandler Espina Cancer Fund.
+KimMarie's Breast Cancer Journey.
+Help Hayden Ritchie Fight Leukemia.
+Makayla's Lymphoma Treatment Fund.
+Karen Mielke Breast Cancer Fund.
+Rally for Molly Psyllas.
+Molly Hulbert Cancer Journey.
+Monica's Fight Against Brain Cancer.
+Monica's Hope 4 Cancer.
+Montana's Lymphoma Treatment.
+Katelyn's Hodgkin's Lymphoma.
+Elly's Breast Cancer Support.
+Mr. Harrison's Fight Against Cancer.
+Mrs. M's Kicking Cancer's Butt.
+Mrs. Paulson Kicks Cancer.
+Julie's Lymphoma Treatments.
+Team Tara: Fighting Breast Cancer.
+Darlene's Leukemia Fund.
+Help Collin Fight Lymphoma.
+Help Korbin Fight Leukemia.
+My Friend Dwayne's Leukemia Journey.
+My moms fight with Breast Cancer.
+My Mom's Fight with Breast Cancer.
+My sister's cancer story.
+Help Myranda Fight Breast Cancer.
+Lyanna VS Leukemia.
+Fighting hodgkin lymphoma #STRONGEU.
+My Health and Infertility Journey.
+Mom's Breast Cancer Fund.
+ERIKA'S FIGHT AGAINST BREAST CANCER.
+Nathaniel's fight with Leukemia.
+Blanca is Blasting Breast Cancer!!.
+Joseph karate chopping leukemia.
+Help 4 yr Old Cohen Beat Cancer!.
+Nicole DeRyder Breast Cancer Fight.
+Simona's Breast Cancer Treatment.
+Nelson Ashworth Cancer Fund.
+New Lungs for Andrea.
+Zuza's Battle Against Leukemia-AML.
+Beavers Baby Fund.
+Team Eileen vs Breast Cancer.
+Nicole's Breast Cancer Fight Fund.
+Help little Nika beat cancer.
+Help Nikki fight Leukemia.
+Nina's Breast Cancer Battle.
+NinerStrong:Mike Fights Rare Cancer.
+#smASHcancer.
+Raeleigh's Fight Against Cancer.
+Help Tara Beat Breast Cancer!.
+Benji Paulakonis Leukemia Fund.
+Noah Coram - Cancer Fund.
+Help Noah Beat Leukemia.
+Noah's Fight Against Leukemia.
+Noe's VICTORY over Leukemia.
+Norrell's Breast Cancer Fund.
+Kim's Fight Against Leukemia Fund.
+Medical and health insurance help?.
+Alyson's medical fund for Lymphoma..
+Kelly Griego's Cancer Fund.
+Help Makinley Beat Leukemia.
+Help Cruz beat leukemia.
+The Ortiz's Baby Fund.
+Clyde's Battle with Leukemia.
+HELPING KATIE BEAT BREAST CANCER.
+Nick's Cancer Butt Kicking Fund.
+My Breast Cancer Fund.
+OFC Mitchel S. brain cancer fight.
+Officer Stopczynski's cancer battle.
+Turning Hope Into Happiness.
+Help Olivia BEAT Leukemia!!!.
+Olivia Graham's Fight with Leukemia.
+Cameron J. Ruby Leukemia Fund.
+Stage 4 Breast Cancer.
+Kellen Kacal Cancer Support.
+Sam's Breast Cancer Crusade.
+Love for Lilly with Leukemia ??.
+PrayFightWin Alex's Lymphoma Battle.
+Help Our Sister Fight Breast Cancer.
+Marilyn's Breast Cancer Battle.
+Help Emily Fight Leukemia.
+Blanton's Fight Against Leukemia.
+Cancer Fund.
+Breast Cancer Expenses for Sammi Salazar.
+Help Jacqueline Fight Cancer.
+Help Jake kick Leukemia's a**!.
+Paddy Wilkins Family Cancer Fund.
+Help Paige Beat Lymphoma!.
+Paigey Pesko Fights Breast Cancer.
+Pam's Stop Breast Cancer Fund.
+Pam's Breast Cancer Fund.
+Patrick's Fight Against Cancer.
+Patti's Leukemia Fight! #PattiStrong.
+Paula's Breast Cancer Fund.
+3 Year Old With Lymphoma.
+Peyton's Fight Against Leukemia.
+Thong and Pachia medical expenses.
+Surviving Breast Cancer.
+Help Philip Fight Hodgkins Lymphoma.
+Phil LeMarbre's Battle Against ALS.
+Battling breast cancer & broke! :(.
+Billy Perez's Leukemia Fund.
+Jennifer Chaffin Breast Cancer Fund.
+Ralph's Rally Against Cancer.
+Please Help Patrice Tsopanides.
+Please help treat Daniel's lymphoma.
+#Polistrong brain cancer fund.
+Help Adin Arnett fight leukemia!.
+Help Vincent fight leukemia..
+Adrianna's Fight Against Leukemia.
+#Pray4EmmaHope NonHodgkins Lymphoma.
+Help DLee Beat Leukemia!.
+Let's help Aidan beat Leukemia.
+Easton's Fight Against Leukemia.
+26 year old mother battles Lymphoma.
+Please help Trey beat cancer!!!.
+Maddies Battle with Brain Cancer.
+Help Suprise the France's-Baby Fund.
+Paula's Road 2 Defeat Breast Cancer.
+My Breast Cancer Journey.
+Kym's Breast Cancer Fund.
+Fight against Lymphoma.
+OUR BROTHERS LYMPHOMA RETURNED.
+Mac's Funds for Cancer Treatment.
+Terri has metastatic breast cancer.
+John's Lymphoma Aid Campaign.
+Surgery for Baby Holler.
+Fight Leukemia for Steven Tapia.
+Diagnosed with stage4 lymphoma.
+Help Zuleika Fight Leukemia.
+Marina's Breast Cancer Fund.
+Raymond's T - Cell Lymphoma Battle.
+Help Beth Beat Breast Cancer!.
+Help Deb Beat Lymphoma.
+Quinn Family Lymphoma Fund.
+Shaan's Breast Cancer Fund.
+Jameson's battle with leukemia.
+Eric Mumpower Let's Beat Cancer.
+Cuts for Cancer.
+Cecilia's Leukemia Treatment Fund.
+R. Soto Treatment Fund.
+Brandy's Fight Against Leukemia.
+Team Kennedee Hodgkins Lymphoma.
+Big Man's bout with lymphoma fund.
+Breast Cancer Survivor Needs Help.
+Starting a Family.
+Adam Sagan's Cancer Treatment Fund.
+Amy's fight against Leukemia.
+Rachael Morgan Cancer Fund.
+Rachel's Ovarian+Breast Cancer Fund.
+Rachel's non hodgkins Lymphoma Journey.
+Raegan's fight against Leukemia.
+Raising money for lymphoma.
+Rally around the Ropers.
+Val's Rally Against Cancer.
+Help Ramoncito BEAT Leukemia.
+Raulito's Fight: Stage 4 Lymphoma.
+Rayna's Fight Breast Cancer Fund.
+Liz Carter's Breast Cancer Battle.
+Help Liam beat leukemia.
+Hatrix Hates Cancer.
+Reece's leukemia fight #CancerSucks.
+Reggie's War On Lymphoma.
+Rejin's Gastric Cancer Fund.
+Renee's Breast Cancer Battle.
+DJ INGRAM'S LEUKEMIA FUND.
+Liam's Fight Against AML Leukemia.
+Hodgkins Lymphoma Ninja.
+Healing Rachael's Colon Cancer.
+#RichardsArmy Against Lymphoma.
+Please help RJ as he battles cancer.
+Devin's leukemia Fund.
+Rob Martins Leukemia Survival Fund.
+Robbie Detwiler Fight Cancer Fund.
+Robbing Cancer.
+Rob Davies Leukemia Benefit.
+Robert Olson- Cancer Fund.
+Dads Journey with Non-Hodgkin Lymphoma.
+Tap out Leukemia.
+Rob's Leukemia Fund.
+Jon's Superman Lymphoma Battle.
+Make Rowena's Wish Come True!.
+Help Russ Gagne lll Battle Lymphoma.
+#RustyWins - Fight against leukemia.
+Rochelle's Fight with Breast Cancer.
+help Ariana fight leukemia.
+Sandra Sebag battles brain tumor.
+Kevin's Fight Lymphoma Fund.
+Help a mom stage 4 breast cancer.
+Help Darren KICK Lymphoma's Butt.
+Expecting Mom Fights Breast Cancer.
+Sabrina's Journey with Leukemia.
+Sal Vella's Cancer Treatment.
+Samantha's Cancer Treatment.
+Help Samantha Beat Breast Cancer.
+Young Dallas Supermom Battles Cancer.
+Sandra battles cancer: NH Lymphoma.
+Santosh's Cancer Fight.
+Sarah Gaines Fighting Cancer.
+Sara's Breast Cancer Journey.
+Sergeant Sims Leukemia Fund.
+Help My Mom Beat Breast Cancer.
+Please help Shelly's husband and Son.
+Melinda's Fight to Beat Breast Cancer.
+Help Us Fight Hodgkins Lymphoma.
+Save my Sister Nyrie from Cancer.
+Help health insurance is due.
+26 yr. old mother with lymphoma.
+Saving Ruiyi (age 7) - Battles Leukemia.
+Help Devan Sanchez FIGHT Cancer.
+No 1 fights alone Help Connie Fight.
+Help Scott Conquer Cancer!.
+Tiny Tinsley's Leukemia Fight Fund.
+Mother of 3 battling breast cancer!.
+Our Struggle & Journey...Continues.
+Rob's Medical Fund.
+Help Bethie Beat Breast Cancer!!!.
+Shaler Titans Help Jill Fight Cancer.
+My Journey Through Hodgkins Lymphoma.
+Shane & Vicki Hall Cancer Fund.
+Shannon's Breast Cancer Battle.
+Shanta's fight against Leukemia.
+Fight of her Life (T- cell Lymphoma).
+Shawn Harvey's Leukemia Fundraiser.
+Shayna's Brain Cancer Fund.
+Help Dennis As He Battles Lymphoma!.
+Sheena's Breast Cancer Fund.
+Help our Mom beat breast cancer.
+Sheila's Fight for Cancer.
+Shekela's Breast Cancer Journey!.
+Shelly's Fight Against Leukemia.
+Support Sheri in her fight.
+Shirley's Cancer Fund.
+Sierra's Fight Against Cancer.
+Silas's Fight against Leukemia.
+Siqi Li leukemia funding All Ph+.
+Sissy Michelle - Hodgkins Lymphoma.
+Stephen Jackson's Cancer Fund.
+Logan's fight against Leukemia..
+Socha: Share. Support. Survive..
+Somma's cancer fund.
+Help w/Stage 4 Breast Cancer Bills!.
+The Sonyah Miro Leukemia Fund.
+Sophia's Cancer Treatment.
+#SophieStrong against leukemia.
+Melissia's fight with Lymphoma.
+Health Insurance for Int'l Students.
+Lisa Dunsmore (Breast Cancer) Fund.
+Haley's Leukemia Fund.
+Staci's Lymphoma Cancer Fund.
+Stage IV cancer-join Jeff's fight.
+Stephanie's Cancer Medical Fund.
+Helping Steve fight Leukemia.
+Steve's Leukemia Fighting Fund.
+Fighting Lymphoma - Steve Schmuker.
+Help Bryant fight Leukemia!.
+Help Nurse Laci Fight Lymphoma.
+Battle of Jeremy vs NH Lymphoma.
+Super Hero Logan's Leukemia Battle.
+Benji Paulakonis Leukemia Fund.
+Team Lucas's Leukemia Battle.
+Super Zane's Cancer Beatdown.
+Adam Hale Fighting For a Cure For Lymphoma.
+Support Cynthia to Conquer Cancer.
+Support Gemma's Cancer Fight.
+John Bauman's Leukemia Fight.
+Young woman with rare lymphoma.
+Support Shannon's Fight Against Leukemia.
+Support Emily Oswald Beat Leukemia.
+12 yr old girl vs Non-Hodgkin Lymphoma.
+Supporting Carrie-Breast Cancer Fund.
+Kiara's Battle with Leukemia.
+Derek Beach (Hodgkins Lymphoma) Fund.
+Support Regina's Lymphoma Fight.
+Support for Stella.
+Support the Stork.
+Fight Leukemia! Support Yize!.
+Surrogacy Journey for Lindsey and Travis.
+Susan McDonough Breast Cancer Fund.
+Scott Swanson's Lymphoma Treatment.
+A Gift Of Life.
+Help for 2 year old Cancer Patient.
+sunny siguenza lymphoma.
+Qessia's Fight Against Lymphoma.
+Helping Finley fight leukemia.
+Abbey's Conquering Cancer.
+Allie's Pediatric Bone Cancer Fund.
+Help for Tad's Cancer Treatments.
+Tammy Yergey NETS Cancer.
+Tara's breast cancer fight.
+Tara's battle with ALL leukemia.
+Tark Yeager's Cancer Treatment Fund.
+Team Taylor Leukemia Fighter.
+Taylor Grace Franklin's Leukemia Fund.
+Help for Taylor ~ Fight against Leukemia.
+Collin's Leukemia Fund.
+Team brAVERY.
+Help Brett Haubrich Fight Cancer!.
+Team Carters Fight against Leukemia.
+Breast Cancer Sucks #JaimeStrong.
+Team Kailyn Fights Leukemia.
+Love Fights Breast Cancer.
+Team RoBaby's Fight Against Cancer.
+Help Lee beat leukemia!.
+Arian is diagnosed w rarest cancer.
+Avery's Medical fund.
+PLEASE HELP! Blixa's Leukemia Fund.
+Brantley's fight against leukemia.
+Battling breast cancer & broke! :(.
+Help Team Brooke fight Hodgkins Lymphoma.
+Team Camy fighting Leukemia (AML).
+Kelly's Lymphoma Fundraiser!.
+Christha's Leukemia Fund.
+Mikes fight against Lymphoma.
+Kick Leukemia #TeamGabbie.
+JESSICA'S LYMPHOMA BATTLE.
+Karlee Nogler's Leukemia Fund.
+Help Landon's Fight Thru Leukemia.
+Team Nathaniel: Eat My Dust Leukemia!.
+Team Paige (Fighting Leukemia).
+#TeamPenguin fights Lymphoma!.
+Help Sergio Beat Leukemia.
+Shamira's Road to Cancer Recovery.
+Whitaker's Fund to Beat Cancer.
+Help Tony Fight Lymphoma!.
+Help Trent Fight Leukemia.
+Trevors Fight Against LEUKEMIA.
+Team Turnbull Fighting Brain Cancer.
+Childhood Leukemia & Lymphoma.
+Mike Thomas Leukemia Fight.
+Help Mike Fight Lymphoma.
+Michelle's Fight With Breast Cancer.
+David's Cancer Treatment & Surgery.
+Sarah's Journey to Defeat Cancer.
+That time cancer messed with Tyler.
+The battle is on: My Dad vs. Cancer.
+Help Scotty with his Leukemia battle.
+Help Angie Kick Cancer's A$$!.
+The Cancer Fund for Brandon.
+The Graham's Medical Fund.
+The Jackson Journey.
+Mom starts nonprofit in LHC AZ!.
+Theo's Journey.
+Theresa's Cancer Treatment Fund.
+Theresa's Tatas Breast Cancer Fight.
+Fundraiser for IVF Medical Expenses.
+Helping Tiare Scrap Breast Cancer.
+Tiffany Carroll Cancer Medical Fund.
+Help Janet Beat Lymphoma!.
+Tiffany's Cancer Fund.
+Time to STRIKE OUT Jessica's Cancer.
+Tim Groller vs. Lung Cancer.
+Timothy v/s Follicular NH Lymphoma.
+Todd Collura's Recovery Fund.
+Tom Huber's Fight Against Cancer.
+Team Tom Fights T-Cell Lymphoma!.
+Tommy Campbell Medical Fund.
+Help Tony Fight Leukemia.
+Taylen's Leukemia Costs & Expenses..
+8 Yr old Jack Thomas Leukemia Fund.
+Help Alecia Fight Breast Cancer.
+Breast Cancer Surgery & Recovery.
+Sarah's Journey to Defeat Cancer.
+Trasplante Médula Ósea.
+Trey's Fund-Lymphoblastic Leukemia.
+Stge 4 Terminal Breast Cancer Fight.
+Tristyn Sanders Cancer Fund.
+Terri Rothfusz Lymphoma Fund.
+Troy Mann's fight against cancer.
+Lymphoma Treatment for Tony.
+Help Tiffany Fight Lymphoma.
+Tuy's gonna kick Cancer's A$$.
+Allie Forsyth's Breast Cancer Fund.
+Support Toni's Road 2 Beat Leukemia.
+Help Ashley Fight Breast Cancer.
+Baby Dooley Dream Fund.
+Diagnozed with lymphoma.
+Judys Fight with Burkitt's Lymphoma.
+Mike and Tina's In Vitro Fund.
+The Bob Britt Fund.
+Woodman Twins Need Your Help.
+Kristina Uddenberg's Lymphoma Fight.
+Dawn's Breast Cancer Fight.
+Alondra's fight against Leukemia.
+Nicole's fight with Breast Cancer.
+Breana battle against breast cancer.
+Keisha's Anti-Cancer Campaign.
+Help Muriel fight her cancer.
+Healing Mom.
+Keeping up with Hodgkin Lymphoma.
+Noah's T-Cell ALL fight leukemia.
+Help me fight the cancer leukemia.
+Jenn's 2nd Fight against Leukemia.
+Gerri's Fight Against Breast Cancer.
+Brittney's Hodgskins Lymphoma Fund.
+HELP KARLA MOODY BEAT BREAST CANCER.
+Lindsey Epstein Breast Cancer Fund.
+Mitchell's Lymphoma Treatment Fund.
+Matt Markovich Tackles Leukemia.
+Carol's Breast Cancer Fight Fund.
+Lolo's Breast Cancer Fund.
+Help Erika beat breast cancer.
+Tim's Leukemia Fight.
+Combat Cancer for Valery.
+Vanessa's Cancer Fund.
+Vanessa's cancer fight fundraiser.
+Breast cancer treatment and surgery.
+Cindy's LOVE fund against lymphoma.
+Help Misia fight Leukemia.
+Myrna's Breast Cancer Medical Fund.
+My Moms Battle Against Cancer.
+Mark Rougeaux's Leukemia Battle.
+Lisa's medical fund.
+Help Sophia Roach Fight Leukemia.
+Gwen's Breast Cancer Fund.
+ChloBear's Brain Cancer-Fight Fund.
+Breast Cancer - Cheryl Dupre Salas.
+haley has hodgkins lymphoma cancer.
+Charlotte'slilbrother or sister....
+Cancer Lymphoma-Help Sasha survive!.
+Dean VS Lymphoma Round 2.
+Amy Stone - Breast Cancer Treatment.
+Karin's Breast Cancer Fight.
+Jenny's Cancer Fighting Fund.
+The Gift of Motherhood.
+Cody Arrant's Lymphoma fund.
+Sofia's Battle with Lymphoma.
+Single mom fighting breast cancer.
+Jody's Breast Cancer Fund.
+Music for Health Insurance coverage.
+Helping Jason Fight Lymphoma.
+Nick Fights Brain Cancer.
+Sandra's Road to Cure Breast Cancer.
+Help Stevie Beat Hodgkin's Lymphoma.
+Help Whitney Fight Leukemia.
+Wife and Mother of 2 with Cancer.
+Will's fight against Lymphoma.
+Help Willie Cross Fight Leukemia.
+Leah's Battle with Leukemia.
+Join Joey's rally against cancer.
+Ella's Journey-Fighting Leukemia.
+Team Fox Hodgkin's Lymphoma Battle.
+Jenn's Breast Cancer Treatment Fund.
+Brookes Breast Cancer fund..
+Dave's Medical Fund.
+Team Julia.
+Eden Bearns Throttling of Leukemia.
+Fighting Stage 4 Cancer.
+Brian's Lymphoma Cancer Fund.
+Andrea & BJ Cancer Support Fund.
+Patricia's Lymphoma Fund.
+Breast Cancer Medical Expenses.
+Xander's Brain Cancer Fundraiser.
+V's Breast Cancer Testing Fund.
+My leukemia and life fund.
+Jeremy's Medical Fund 2 Beat Cancer.
+Taras Breast Cancer Battle Fund.
+Our Sweet Anuheas Fight Against Leukemia.
+Amy's Battle with Breast Cancer.
+Tara Baptiste Medical Fund.
+Caro's Battle Against Lymphoma.
+Larry Moore Fundraiser for Lymphoma.
+fund raising for Kirk and Sian.
+The Raveling Twins.
+Val Bodnar's Breast Cancer Fight.
+Lila Brown leukemia fund.
+Give the gift of hope!.
+New Hope for Steph - and Bernie.
+Justin Kline Beating Leukemia.
+Iscella's cancer mishap.
+Tif Skalsky's Breast Cancer Battle.
+Help Our Baby Sister Beat Leukemia!.
+Axel's Fight Against Sturge Weber.
+Breast Cancer fund for MersihaGusic.
+Help Coco Beat Breast Cancer.
+Tonya Yale's breast cancer fight.
+Sisters with Breast Cancer.
+Young wife & mother battling cancer.
+Heather Norwood: Hodgkin's Lymphoma.
+Darlene's Fight with Breast Cancer.
+The Journey of Hope: The Powell's.
+Judy's Breast Cancer Fund.
+Help Billy Zoom Kick Cancer's Butt.
+Team Tracy ~ Breast Cancer Fight.
+Erin's breast cancer fund.
+Dana's Breast Cancer Fund.
+JEFF BROCK - HELP LOVE BEAT CANCER.
+Baby M Dream fund- Cervical Cancer.
+Titus' Fight Against Leukemia.
+Tina's Breast Cancer Fund.
+Katie's Breast Cancer Benefit.
+Support 5 month old w Leukemia.
+Fighting Leukemia with Zach.
+Charlotte's breastcancer Battle.
+Help Young Mom With Breast Cancer.
+Randy Dubach Leukemia Fund.
+Breast Cancer Stage 4 Metastatic.
+Ivy's Leukemia Fund.
+Help Aaron Fight Cancer.
+Jacob's Leukemia Treatment Fund.
+Dan's Battle with Burkitts Lymphoma.
+Ken Andersons Leukemia Recovery.
+Jenny's Breast Cancer Fund.
+F#%CK Cancer.
+Greg's Fight With Brain Cancer.
+Priscilla's goal to defeat Leukemia.
+"
+```
+
+```{r}
+s_v_1 <- get_sentences(my_example_text)
+head(s_v_1)
+class(s_v_1)
+str(s_v_1)
+```
+
+```{r}
+library(syuzhet)
+```
+
+
+### Word Sentiment
+```{r}
+poa_word_v <- get_tokens(s_v_1, pattern = "\\W")
+syuzhet_vector <- get_sentiment(poa_word_v, method="syuzhet")
+bing_vector <- get_sentiment(poa_word_v, method="bing")
+afinn_vector <- get_sentiment(poa_word_v, method="afinn")
+nrc_vector <- get_sentiment(poa_word_v, method="nrc", lang = "english")
+
+head(syuzhet_vector)
+head(bing_vector)
+head(afinn_vector)
+head(nrc_vector)
+```
+
+Because the different methods use different scales, it may be more useful to compare them using R's built in sign function. The sign function converts all positive number to 1, all negative numbers to -1 and all zeros remain  0.
+
+```{r}
+rbind(
+  sign(head(syuzhet_vector)),
+  sign(head(bing_vector)),
+  sign(head(afinn_vector)),
+  sign(head(nrc_vector))
+)
+```
+ 
+```{r}
+sum(syuzhet_vector)
+mean(syuzhet_vector)
+summary(syuzhet_vector)
+```
+
+#### Sentence Sentiment
+```{r}
+syuzhet_vector_sen <- get_sentiment(s_v_1, method="syuzhet")
+bing_vector_sen <- get_sentiment(s_v_1, method="bing")
+afinn_vector_sen <- get_sentiment(s_v_1, method="afinn")
+nrc_vector_sen <- get_sentiment(s_v_1, method="nrc", lang = "english")
+head(syuzhet_vector_sen)
+head(bing_vector_sen)
+head(afinn_vector_sen)
+head(nrc_vector_sen)
+```
+```{r}
+rbind(
+  sign(head(syuzhet_vector_sen)),
+  sign(head(bing_vector_sen)),
+  sign(head(afinn_vector_sen)),
+  sign(head(nrc_vector_sen))
+)
+```
+```{r}
+sum(syuzhet_vector_sen)
+mean(syuzhet_vector_sen)
+summary(syuzhet_vector_sen)
+```
+
+
+```{r}
+s_v <- get_sentences(my_example_text)
+s_v_sentiment <- get_sentiment(s_v)
+plot(
+  s_v_sentiment, 
+  type="l", 
+  main="Sentences Sentiment Trajectory", 
+  xlab = "Narrative Time", 
+  ylab= "Emotional Valence"
+  )
+```
+
+```{r}
+plot(
+  syuzhet_vector_sen, 
+  type="h", 
+  main="Syuzhet Vector Trajectory - Sencetences", 
+  xlab = "Narrative Time", 
+  ylab= "Emotional Valence"
+  )
+```
+```{r}
+percent_vals <- get_percentage_values(syuzhet_vector_sen, bins = 10)
+plot(
+  percent_vals, 
+  type="l", 
+  main="Go Found Me Title Sencetences Using Percentage-Based Means", 
+  xlab = "Narrative Time", 
+  ylab= "Emotional Valence", 
+  col="red"
+  )
+```
+
+```{r}
+percent_vals <- get_percentage_values(syuzhet_vector_sen, bins = 30)
+plot(
+  percent_vals, 
+  type="l", 
+  main="Go Found Me Title Sencetences Using Percentage-Based Means", 
+  xlab = "Narrative Time", 
+  ylab= "Emotional Valence", 
+  col="red"
+  )
+```
+```{r}
+library(syuzhet)
+dct_values <- get_dct_transform(
+      syuzhet_vector_sen, 
+      low_pass_size = 5, 
+      x_reverse_len = 100,
+      scale_vals = F,
+      scale_range = T
+      )
+plot(
+  dct_values, 
+  type ="l", 
+  main ="Go Found Me Title Using Transformed Values", 
+  xlab = "Narrative Time", 
+  ylab = "Emotional Valence", 
+  col = "red"
+  )
+
+```
+
+### The get_nrc_sentiment implements Saif Mohammad's NRC Emotion lexicon. According to Mohammad, "the NRC emotion lexicon is a list of words and their associations with eight emotions (anger, fear, anticipation, trust, surprise, sadness, joy, and disgust) and two sentiments (negative and positive)
+
+
+```{r}
+nrc_data <- get_nrc_sentiment(s_v_1)
+```
+
+```{r}
+angry_items <- which(nrc_data$anger > 0)
+s_v_1[angry_items]
+```
+```{r}
+joy_items <- which(nrc_data$joy > 0)
+s_v[joy_items]
+```
+
+# anger	anticipation	disgust	fear	joy	sadness	surprise	trust
+
+```{r}
+pander::pandoc.table(nrc_data[, 1:8], split.table = Inf)
+```
+
+# negative	positive
+
+```{r}
+pander::pandoc.table(nrc_data[, 9:10])
+```
+
+# To calculate a single value of positive or negative valence for each sentence, the values in the negative column are converted to negative numbers and then added to the values in the positive column
+```{r}
+valence <- (nrc_data[, 9]*-1) + nrc_data[, 10]
+valence
+```
+
+```{r}
+barplot(
+  sort(colSums(prop.table(nrc_data[, 1:8]))), 
+  horiz = TRUE, 
+  cex.names = 0.7, 
+  las = 1, 
+  main = "Emotions in Go Found Me Title", xlab="Percentage"
+  )
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
